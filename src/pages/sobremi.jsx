@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const AboutMe = () => {
+const SobreMi = () => {
   return (
-    <Container id="about" className="py-5">
+    <Container id="about" style={{paddingTop:'150px', paddingBottom:'150px'}}>
       <Row>
         <Col>
           <h2>Acerca de Mí</h2>
-          <p>¡Hola! Soy [Tu Nombre], un desarrollador web apasionado...</p>
+          <p>¡Hola! Soy Juan Pablo Ruz, un desarrollador web fullStack apasionado...</p>
           {/* Añade más detalles sobre ti */}
         </Col>
       </Row>
@@ -15,4 +15,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default SobreMi;

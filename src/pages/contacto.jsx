@@ -1,17 +1,22 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
-const Contact = () => {
+const Contacto = () => {
+  const handleButtonClick = () => {
+    window.location.href = 'mailto:juanpabloruz25@gmail.com';
+  };
   return (
-    <Container id="contact" className="py-5">
+    <Container id="contact" className="mt-5">
       <Row>
         <Col>
           <h2>Contacto</h2>
-          {/* Agrega un formulario de contacto o información de contacto */}
+          <Button onClick={handleButtonClick}>
+            Enviar correo a Juan Pablo
+          </Button>
         </Col>
       </Row>
     </Container>
   );
 };
 
-export default Contact;
+export default Contacto;

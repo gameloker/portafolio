@@ -1,18 +1,20 @@
 import React from 'react';
-import Navbar from './pages/navbar';
-import AboutMe from './pages/sobremi';
-import Projects from './pages/proyectos';
-import Contact from './pages/contacto';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from '../src/pages/navbar';
+import Proyectos from '../src/pages/proyectos';
+import SobreMi from '../src/pages/sobremi';
+import Contacto from '../src/pages/contacto';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <AboutMe />
-      <Projects />
-      <Contact />
-      {/* Agrega aquí el contenido principal de tu aplicación */}
-    </div>
+      <Routes>
+        <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/sobre-mi" element={<SobreMi />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </Router>
   );
 };
 
