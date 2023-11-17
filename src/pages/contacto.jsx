@@ -6,7 +6,7 @@ const Contacto = () => {
     window.location.href = 'mailto:juanpabloruz25@gmail.com';
   };
   return (
-    <Container id="contact" className="mt-5">
+    
       <Row>
         <Col>
           <h2>Contacto</h2>
@@ -15,7 +15,7 @@ const Contacto = () => {
           </Button>
         </Col>
       </Row>
-    </Container>
+  
   );
 };
 

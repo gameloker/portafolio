@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
+import {Row, Col, Button, Card } from "react-bootstrap";
 import miImagen from '../assets/images/im1.jpg'
 
 
@@ -7,7 +7,7 @@ import miImagen from '../assets/images/im1.jpg'
 
 const Proyectos = () => {
   return (
-    <Container id="projects" className="mt-5" >
+    
       <Row>
         <Col>
           <h2>Mis Proyectos</h2>
@@ -23,7 +23,7 @@ const Proyectos = () => {
           </Card>
         </Col>
       </Row>
-    </Container>
+   
   );
 };
 
