@@ -11,7 +11,7 @@ const Contacto = () => {
         <Col>
           <h2>Contacto</h2>
           <Button onClick={handleButtonClick}>
-            Enviar correo a Juan Pablo
+            Enviar correo a Juan Pablo a
           </Button>
         </Col>
       </Row>
