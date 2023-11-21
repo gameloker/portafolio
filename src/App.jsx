@@ -11,10 +11,8 @@ import { Container } from "react-bootstrap";
 const App = () => {
   return (
     <Router>
-      
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/sobre-mi" element={<SobreMi />} />
           <Route path="/contacto" element={<Contacto />} />
