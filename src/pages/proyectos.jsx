@@ -3,8 +3,6 @@ const Proyectos = () => {
 
 
   return (
-  
-  
       <div className="max-w-xs  cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
         <img
           className=" rounded-lg object-cover object-center"
