@@ -5,8 +5,8 @@ import Proyectos from "../src/pages/proyectos";
 import SobreMi from "../src/pages/sobremi";
 import Contacto from "../src/pages/contacto";
 import MainLayout from "./layouts/MainLayout";
-import "./App.css";
-import { Container } from "react-bootstrap";
+import "./index.css";
+
 
 const App = () => {
   return (

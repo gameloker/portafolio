@@ -4,7 +4,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Navbar from "../pages/navbar";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 export default function MainLayout() {
 
   const particlesInit = useCallback(async (engine) => {
