@@ -3,10 +3,10 @@ import React from "react";
 
 const SobreMi = () => {
   const handleDownload = () => {
-    // Utiliza la ruta correcta de tu currículum PDF en la carpeta 'public'
+
     const curriculumUrl = "https://1drv.ms/b/s!Aq0jQFXCVROh4DCAY4Sd2Vdb0gfW?e=x4FSR8";
 
-    // Crea un enlace temporal y simula un clic para descargar el archivo
+    
     const downloadLink = document.createElement("a");
     downloadLink.href = curriculumUrl;
     downloadLink.click(curriculumUrl);
