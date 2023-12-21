@@ -3,7 +3,8 @@ const Proyectos = () => {
 
 
   return (
-      <div className="max-w-xs  cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+    <div className="container flex flex-wrap justify-around">
+      <div className="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md mt-5 ">
         <img
           className=" rounded-lg object-cover object-center"
           src="https://i.imgur.com/ngnBBbn.png"
@@ -21,11 +22,12 @@ const Proyectos = () => {
          
           <div className="my-4 flex items-center justify-center px-4  ">
             <a href="https://strike-menu.vercel.app/" className="bg-blue-500 w-60 text-white px-4 py-2 rounded text-sm font-semibold hover:scale-105 no-underline text-center">Explorar</a>
-           
           </div>
         </div>
       </div>
 
+      
+      </div>
   
 
   );
