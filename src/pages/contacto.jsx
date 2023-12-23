@@ -1,22 +1,12 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { InlineWidget } from "react-calendly";
 
-const Contacto = () => {
-  const handleButtonClick = () => {
-    window.location.href = 'mailto:juanpabloruz25@gmail.com';
-  };
+const App = () => {
   return (
-    
-      <Row>
-        <Col>
-          <h2>Contacto</h2>
-          <Button onClick={handleButtonClick}>
-            Enviar correo a Juan Pablo a
-          </Button>
-        </Col>
-      </Row>
+   
+      <InlineWidget url="https://calendly.com/juanpabloruz" styles={{position:'relative', minWidth:'320px', height:'750px'}}/>
   
   );
 };
 
-export default Contacto;
+export default App;
