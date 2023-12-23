@@ -86,18 +86,18 @@ const SobreMi = () => {
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                     <div className="lg:mr-4 p-3 text-center">
                       <a href="https://www.linkedin.com/in/juanpabloruz/">
-                        <img src="https://i.imgur.com/xEdJvjk.png" className="w-14 h-12 object-cover duration-150 hover:scale-105 hover:shadow-md cursor-pointer shadow" />
+                        <img src="https://i.imgur.com/xEdJvjk.png" className="w-14 h-12 object-cover rounded-full duration-150 hover:scale-105 hover:shadow-md cursor-pointer shadow" />
                         </a>
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                       <a href="https://github.com/gameloker">
-                        <img src="https://i.imgur.com/4MUgVj2.png" className="w-14 h-12 object-cover duration-150 hover:scale-105  hover:shadow-md cursor-pointer shadow" />
+                        <img src="https://i.imgur.com/4MUgVj2.png" className="w-14 h-12 rounded-full object-cover duration-150 hover:scale-105  hover:shadow-md cursor-pointer shadow" />
                         </a>
                       </div>
                       
                       <div className="lg:mr-4 p-3 text-center">
                       <a onClick={handleButtonClick}>
-                        <img src="https://i.imgur.com/JUFxsUa.png" className="w-12 h-12 object-cover duration-150 hover:scale-105 hover:shadow-md cursor-pointer shadow" />
+                        <img src="https://i.imgur.com/JUFxsUa.png" className="w-12 h-12 rounded-full object-cover duration-150 hover:scale-105 hover:shadow-md cursor-pointer shadow" />
                         </a>
                       </div>
                     </div>
