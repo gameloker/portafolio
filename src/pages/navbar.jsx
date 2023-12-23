@@ -17,14 +17,14 @@ const MyNavbar = () => {
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand href="#home">Mi Portafolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className='font-bold'>Mi Portafolio</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to="/" onClick={closeNavbar}>
+            <Nav.Link className='font-bold' as={Link} to="/" onClick={closeNavbar}>
               Sobre Mí
             </Nav.Link>
             <Nav.Link as={Link} to="/proyectos" onClick={closeNavbar}>
