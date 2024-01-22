@@ -9,7 +9,7 @@ const MyNavbar = () => {
 
   return (
     <Navbar
-      bg="dark"
+      
       variant="dark"
       expand="lg"
       className="p-4 bg-black"

@@ -26,6 +26,27 @@ const Proyectos = () => {
         </div>
       </div>
 
+      <div className="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md mt-5 ">
+        <img
+          className=" rounded-lg object-cover object-center"
+          src="https://i.imgur.com/0VzTuPz.png"
+          alt="product"
+        />
+        <div>
+          <div className="mt-4 flex items-center justify-between px-4">
+            <p className="font-bold text-gray-500">Likan</p>
+           
+          </div>
+          <div className="my-1 flex items-center justify-between px-4">
+            <p className="text-sm font-semibold text-gray-500">Likan es un proyecto web que destaca la excelencia en animaciones 3D. Utilizando Next.js, React, Tailwind CSS y JavaScript, este sitio ofrece a las empresas una plataforma visual para explorar y contactar directamente con la empresa.</p>
+           
+          </div>
+         
+          <div className="my-4 flex items-center justify-center px-4  ">
+            <a href="https://likan.vercel.app/" className="bg-blue-500 w-60 text-white px-4 py-2 rounded text-sm font-semibold hover:scale-105 no-underline text-center">Explorar</a>
+          </div>
+        </div>
+      </div>
       
       </div>
   
